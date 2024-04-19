@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>likes-project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="nav">
+            <div class="titulo">
+                <h1> Network </h1>
+            </div>
+        </div>
+        <div class="feed">
+            <h2> Your feed </h2>
+        </div>
+        <div class="contenido">
+            <div class="izquierda">
+                <div class="perfil">
+                    <img src="./icon/user-circle.png" alt="foto de perfil" class="fotoPerfil">
+                    <a class="addAvatar" href="#">Add an avatar</a>
+                    <h2 class="nombrePerfil"> James Doe </h2>
+                </div>
+            </div>
+            <div class="derecha">
+                <div class="col1">
+                    <div class="nombre">
+                        <h2 class="neil"> Neil M </h2>
+                        <div class="colLikes1">
+                            <h3 class="numeroLikes" id="numeroLikes1"> 9 like(s) </h3>
+                            <button class="like" onclick="subirLike1()"> Like </button>
+                        </div>
+                    </div>
+                    <div class="texto">
+                        <p> I just set up this new discord bot, let me know what you all think. <a href="#">link</a> </p>
+                    </div>
+                </div>
+                <div class="col1">
+                    <div class="nombre">
+                        <h2 class="nichole"> Nichole K </h2>
+                        <div class="colLikes2">
+                            <h3 class="numeroLikes" id="numeroLikes2"> 12 like(s) </h3>
+                            <button class="like" onclick="subirLike2()"> Like </button>
+                        </div>
+                    </div>
+                    <div class="texto">
+                        <p> Just finished mi <a href="#">next comic</a>, check it out. </p>
+                    </div>
+                </div>
+                <div class="col1">
+                    <div class="nombre">
+                        <h2 class="jim"> Jim R </h2>
+                        <div class="colLikes3">
+                            <h3 class="numeroLikes" id="numeroLikes3"> 9 like(s) </h3>
+                            <button class="like" onclick="subirLike3()"> Like </button>
+                        </div>
+                    </div>
+                    <div class="texto">
+                        <p> I can't stop listening to the <a href="#">new album</a>. </p>
+                        <p> Who Else is liking it? </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
